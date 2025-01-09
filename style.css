@@ -1,0 +1,107 @@
+
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.btn{
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background: rgb(253, 110, 10);
+    font-size: 20px;
+    font-weight: 70px;
+    padding: 15px 28px;
+    cursor: pointer;
+
+}
+.text-primay{
+    color: rgb(253, 110, 10);
+}
+.dark-2{
+    color: rgb(71, 71, 71);
+}
+
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+}
+.nav-title{
+font-family: Open Sans;
+font-size: 45px;
+font-weight: 800;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+nav ul li {
+    list-style: none;
+}
+nav li a{
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+
+/* bannar style */
+.header{
+    background-image: url(../media/images/developer.png) ,url(../media/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 38px 0px 200px;
+}
+.bannr-container{
+    max-width: 585px;
+}
+
+.bannar-greeding{
+color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 40px;
+font-weight: 400;
+margin: 0px;
+}
+.bannar-title{
+color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 72px;
+font-weight: 700;
+margin-top: 0px;
+
+}
+.bannar-description{
+color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 40px;
+
+}
