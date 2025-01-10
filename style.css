@@ -10,6 +10,25 @@
 }
 
 /* shared style */
+.text-center{
+    text-align: center;
+}
+.section-title{
+color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+}
+.section-description{
+color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+
+}
+.secondery-bg{
+    background-color: rgb(255, 248, 243);
+}
 .btn{
     color: white;
     border-radius: 5px;
@@ -105,3 +124,89 @@ font-weight: 400;
 margin-bottom: 40px;
 
 }
+
+/* About */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.about{
+    padding: 131px 157px;
+    text-align: center;
+    margin: 230px 130px;
+    border: 1px solid black;
+
+}
+.about-items{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* what I Do section start */
+.skils{
+    margin-bottom: 130px;
+}
+.skil-container{
+    display: flex;
+    gap: 24px;
+    padding: 20px;
+    
+}
+.skil{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Resume Section */
+.resume{
+    margin-bottom: 120px;
+}
+.resume-container{
+    display: flex;
+    gap: 100px;
+}
+.resume-container-title{
+color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.resume-container-subtitle{
+color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.resume-container-sub-description{
+color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.resume-container-description{
+color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.resume-btn{
+    margin-top: 20px;
+}
+/* Resume Section End */
