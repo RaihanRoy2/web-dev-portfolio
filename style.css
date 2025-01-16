@@ -231,3 +231,30 @@ padding: 10px 20px;
 
 
 }
+
+/* responsive media queariy */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skil-container, .resume-container, footer, .about-items{
+        flex-direction: column;
+        
+        
+    }
+    footer, .about{       
+        padding: 20px;
+    }
+    .footer-colum{
+        width: 100%;
+        width: calc((100% - 40px));
+    }
+    .about{
+        width: 100%;       
+        margin: 0px;
+        
+    }
+    
+}
+
