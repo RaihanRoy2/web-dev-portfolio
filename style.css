@@ -238,10 +238,23 @@ padding: 10px 20px;
 }
 
 @media screen and (max-width: 576px) {
-    .skil-container, .resume-container, footer, .about-items{
+    .skil-container, .resume-container, footer, .about-items, .bannar{
         flex-direction: column;
         
         
+    }
+    .header{
+        background-image: none;
+    }
+    .header > nav, ul{
+        flex-direction: column;
+    }
+    .bannar > img{
+        width: 340px;
+    }
+    .bannar{
+        width: 100%;
+        margin: 0px;
     }
     footer, .about{       
         padding: 20px;
@@ -253,6 +266,7 @@ padding: 10px 20px;
     .about{
         width: 100%;       
         margin: 0px;
+        margin-top: 50px;
         
     }
     
